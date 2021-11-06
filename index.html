@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation App</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <h1>Meditation App</h1>
+  <section id="main">
+    <div id="selector">
+      <label for="breaths">Select breaths:</label>
+
+      <select name="breaths" id="breaths">
+        <option value="1">1 breath</option>
+        <option value="2">2 breaths</option>
+        <option value="3">3 breaths</option>
+        <option value="4">4 breaths</option>
+        <option value="5">5 breaths</option>
+      </select>
+    </div>
+
+    <div id="circle">
+        <div id="animation"></div>
+    </div>
+
+    <div id="bottom">
+      <span id="counter">Breaths Remaining: </span><span id="breath-num"></span>
+      <p id="instructions">Select a number of breaths and press Begin</p>
+      <button class="begin">Begin</button>
+    </div>
+  </section>
+ 
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+
